@@ -2,7 +2,6 @@ import requests
 import os
 from bs4 import BeautifulSoup
 import pandas as pd
-from IPython.display import display, Image
 
 total_pages = int(input('How many pages to scrape: '))
 books_data = pd.DataFrame(columns = ['title','book_cover_url','price','description','upc_id','product_type','availability','reviews'])
